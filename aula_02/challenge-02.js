@@ -17,15 +17,15 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function adicionarValor(valor) {
-    novaVariavel = valor;
-    return `O valor da variável agora é ${novaVariavel}.`;
+function adicionarValor() {
+    novaVariavel = 18;
+    return 'O valor da variável agora é ' + novaVariavel;
 }
 // Invoque a função criada acima.
-console.log(adicionarValor(10)); // Exibe: O valor da variável agora é 10.
+console.log(adicionarValor()); // Exibe: O valor da variável agora é 18.
 
 // Qual o retorno da função? (Use comentários de bloco).
-/* A função retorna a string: "O valor da variável agora é 10." */
+/* A função retorna a string: "O valor da variável agora é 18." */
 
 /*
 Crie uma função com as seguintes características:
@@ -37,7 +37,7 @@ Crie uma função com as seguintes características:
 function multiplicarSomar(a, b, c) {
     if (a === undefined || b === undefined || c === undefined) {
         return "Preencha todos os valores corretamente!";
-    }
+    } 
     return (a * b * c) + 2;
 }
 // Invoque a função criada acima, passando só dois números como argumento.
