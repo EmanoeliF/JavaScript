@@ -17,7 +17,7 @@ function criarUsuario(nome, idade) {
         idade: idade,
         ativo: true,
     };
-}
+};
 
 const usuario = criarUsuario("Manu", 33);
 console.log(usuario); 
@@ -31,7 +31,7 @@ function gerarDados(nome, quantidade) {
         numeros: arrayDeNumeros,
     };
     return objetoUsuario;
-}
+};
 
 const dados = gerarDados("Ewerton", 9);
 console.log(dados);
@@ -63,7 +63,7 @@ function categorizarNumeros(numeros) {
         pares: numeros.filter(num => num % 2 === 0),
         impares: numeros.filter(num => num % 2 !== 0),
     };
-}
+};
 
 const numerosCategoria = categorizarNumeros([1, 2, 3, 4, 5, 6]);
 console.log(numerosCategoria);

@@ -8,7 +8,7 @@ Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
 function myFuction(array) {
     return array;
-}
+};
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
@@ -21,7 +21,7 @@ segundo parâmetro.
 */
 function myFuction2( array, index ) {
     return array[ index ];
-}
+};
   
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
@@ -72,7 +72,7 @@ function book(nomeDoLivro) {
     };
 
     return !nomeDoLivro ? livros : livros[nomeDoLivro];
-}
+};
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
