@@ -49,7 +49,7 @@ função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
 console.log(showTeamPosition(1)); // "O time que está em 1º lugar é Maguary."
 console.log(showTeamPosition(3)); // "O time que está em 3º lugar é o Náutico ."
-console.log(showTeamPosition(6)); // "Não temos a informação do time que está nessa posição."
+console.log(showTeamPosition(8)); // "Não temos a informação do time que está nessa posição."
 
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de

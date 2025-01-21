@@ -33,7 +33,7 @@ switch (day) {
 
 Exemplo com fall-through:*/
 
-const grade = "B";
+const grade = "C";
 
 switch (grade) {
   case "A":
